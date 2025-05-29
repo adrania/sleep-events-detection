@@ -1,6 +1,5 @@
 ## Multi-task deep-learning for sleep event detection and stage classification
 
-Polysomnographic sleep analysis is the standard clinical method to accurately diagnose and treat sleep disorders. It is an intricate process which involves the manual identification, classification, and location of multiple sleep event patterns. This is complex, for which identification of different types of events involves focusing on different subsets of signals, resulting on an iterative time-consuming process entailing several visual analysis passes. 
-In this paper we propose a multi-task deep-learning approach for the simultaneous detection of sleep events and hypnogram construction in one single pass. Taking as reference state-of-the-art methodology for object-detection in the field of Computer Vision, we reformulate the problem for the analysis of multi-variate time sequences, and more specifically for pattern detection in the sleep analysis scenario. We investigate the performance of the resulting method in identifying different assembly combinations of EEG arousals, respiratory events ($apneas$ and $hypopneas$) and sleep stages, also considering different input signal montage configurations. 
-Furthermore, we evaluate our approach using two independent datasets, assessing true-generalization effects involving local and external validation scenarios. 
-Based on our results, we analyze and discuss our method's capabilities and its potential wide-range applicability across different settings and datasets.
+Source code for reproducibility of experiments described in the following paper:
+
+A. Anido-Alonso and D. Alvarez-Estevez, "Multi-Task Deep-Learning for Sleep Event Detection and Stage Classification," 2025 IEEE Symposium on Computational Intelligence in Health and Medicine Companion (CIHM Companion), Trondheim, Norway, 2025, pp. 1-5, doi: 10.1109/CIHMCompanion65205.2025.11002700
